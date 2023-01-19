@@ -1,7 +1,7 @@
 // getElementById 정의로 가보면 HTMLElement, null을 리턴 받는걸 확인
 const container: HTMLElement | null = document.getElementById("app");
 const pokemons: number = 100;
-
+//API에 등록된 포켓몬은 총 1008마리
 interface IPokemon {
   id: number;
   name: string;
